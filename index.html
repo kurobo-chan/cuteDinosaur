@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&family=Nunito:wght@400;700;900&family=Walter+Turncoat&display=swap"
+      rel="stylesheet"
+    />
+    <link href="dist/hamburgers.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="back">
+    <div class="partsGrid">
+      <header class="header">
+        <a href="index.html" class="siteName"> dinosaur</a>
+        <div class="navBtnBlock">
+          <span>Select Page</span>
+          <button class="navBtn hamburger hamburger--stand" onclick="navFunc()">
+            <div class="hamburger-box">
+              <div class="hamburger-inner"></div>
+            </div>
+            <span class="sr-only">MENU</span>
+          </button>
+        </div>
+        <nav class="headerNav">
+          <ul>
+            <li class="home"><a href="#">Home</a></li>
+            <li class="work">
+              <div class="accordion" onclick="accFunc()">
+                Work<i class="fas fa-chevron-down"></i>
+                <ul class="navWorkBlok">
+                  <li><a href="#">Illustration</a></li>
+                  <li><a href="#">Figure</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="contact"><a href="#">Contact</a></li>
+            <li class="blog"><a href="#">Blog</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+
+    <div class="hero partsGrid">
+      <h1>hello</h1>
+      <figure class="eyecatch">
+        <img src="/images/hero.jpeg" alt="HELLO!" />
+      </figure>
+    </div>
+    <section class="menu partsGrid">
+      <div class="grid12 container">
+        <article>
+          <a href="#">
+            <h3>illustration</h3>
+          </a>
+          <figure>
+            <img src="/images/illusttration.jpeg" alt="illustration" />
+          </figure>
+        </article>
+        <article>
+          <a href="#">
+            <h3>figure</h3>
+          </a>
+          <figure>
+            <img src="/images/blog.jpeg" alt="figure" />
+          </figure>
+        </article>
+        <article>
+          <a href="#">
+            <h3>from the blog</h3>
+          </a>
+          <figure>
+            <img
+              src="/images/blog.jpeg
+			"
+              alt="figure"
+            />
+          </figure>
+        </article>
+      </div>
+    </section>
+    <section class="msg partsGrid">
+      <div class="grid12 container">
+        <h2>Hello!</h2>
+        <h3>Welcome to my world of Illustration and Figure pattern!</h3>
+        <p>
+          メッセージがはいります。メッセージがはいります。メッセージがはいります。メッセージがはいります。メッセージがはいります。メッセージがはいります。メッセージがはいります。
+        </p>
+        <p>
+          私の作品を見てプロジェクトの質問があれば、大小を問わず、遠慮なく私に連絡してください。
+        </p>
+        <div>
+          <a href="#" class="button">contact</a>
+        </div>
+      </div>
+    </section>
+    <section class="gallery partsGrid">
+      <div class="grid12 container">
+        <h2>Gallery</h2>
+        <figure>
+          <img src="/images/galleryA.jpeg" alt="" />
+        </figure>
+        <figure>
+          <img src="/images/galleryB.jpeg" alt="" />
+        </figure>
+        <figure>
+          <img src="/images/blog.jpeg" alt="" />
+        </figure>
+        <figure>
+          <img src="/images/galleryC.jpeg" alt="" />
+        </figure>
+      </div>
+    </section>
+    <footer class="footer partsGrid">
+      <nav class="grid12 container">
+        <ul>
+          <li><a href="#">works</a></li>
+		  <li><a href="#">contact</a></li>
+          <li><a href="#">legal</a></li>
+          <li>
+            <a href="#">social</a>
+            <ul class="sns">
+              <li><a href="#">Instagram</a></li>
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">Twitter</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
